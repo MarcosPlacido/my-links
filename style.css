@@ -11,16 +11,17 @@ img {
     border-radius: 150px;
     width: 280px;
     height: 280px;
+    border: 2px solid black;
 }
 
 h1 {
-    color: aliceblue;
+    color: gray;
     margin-top: 31px;
     margin-bottom: 8px;
 }
 
 p {
-    color: aliceblue;
+    color: gray;
 }
 
 ul {
@@ -33,16 +34,21 @@ li {
 }
 
 a {
-    background-color: green;
-    color: aliceblue;
+    background-color: gray;
+    color: black;
     padding: 15px;
     text-decoration: none;
     display: block;
     width: 250px;
     height: 15px;
-    border-radius: 8px;
+    border-radius: 50px;
 }
 
+a:hover {
+    background-color: gainsboro;
+    color: black;
+    
+}
 .container {
     width: 280px;
     text-align: center;
@@ -52,6 +58,7 @@ a {
 }
 
 footer {
-    color: aliceblue;
+    color: gray;
     text-decoration: underline;
+    font-size: 10px;
     }
